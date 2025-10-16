@@ -1,0 +1,20 @@
+.chart-container {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .chart-container:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    border-color: #999;
+/* 
+    color: #1e3a8a;
+    color: #150364;
+    color: #00aaf8;
+    color: #000000;
+    color: #4b4b4d; */
+  }
+  

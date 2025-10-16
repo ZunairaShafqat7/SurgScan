@@ -1,0 +1,41 @@
+.header-dashboard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white; /* Your preferred background color */
+    color: #122647;
+    border-color: black;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-picture {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  #logoutButton {
+    background-color: #122647;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #logoutButton:hover {
+    background-color: #d32f2f;
+  }
+  

@@ -1,0 +1,11 @@
+.header-inspection h1 {
+    background-color: #122647;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Gill Sans', sans-serif;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  

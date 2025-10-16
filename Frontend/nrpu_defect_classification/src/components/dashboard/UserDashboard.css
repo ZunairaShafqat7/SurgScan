@@ -1,0 +1,19 @@
+/* Hide elements during print */
+@media print {
+    .no-print,
+    #add-batch-form,
+    .MuiDrawer-root {
+      display: none !important;
+    }
+  
+    #printable-content {
+      /* margin: 0; */
+      padding: 0;
+      margin-left: 0 !important;
+    }
+  
+    body {
+      background: white;
+    }
+  }
+  

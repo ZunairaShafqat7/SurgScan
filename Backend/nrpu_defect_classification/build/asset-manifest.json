@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.25655c63.css",
+    "main.js": "/static/js/main.2ffa6e1d.js",
+    "static/js/453.0d6f3dd8.chunk.js": "/static/js/453.0d6f3dd8.chunk.js",
+    "static/media/background.JPG": "/static/media/background.17097c8b1d40a3013a4e.JPG",
+    "static/media/surgScanLogo.jpg": "/static/media/surgScanLogo.020d73071892367173c5.jpg",
+    "static/media/hec.jpg": "/static/media/hec.fb7811c101e2efaedf8f.jpg",
+    "index.html": "/index.html",
+    "main.25655c63.css.map": "/static/css/main.25655c63.css.map",
+    "main.2ffa6e1d.js.map": "/static/js/main.2ffa6e1d.js.map",
+    "453.0d6f3dd8.chunk.js.map": "/static/js/453.0d6f3dd8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25655c63.css",
+    "static/js/main.2ffa6e1d.js"
+  ]
+}

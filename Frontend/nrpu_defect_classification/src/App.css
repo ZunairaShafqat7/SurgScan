@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Updated styles for app layout */
+.app-container {
+  width: 100%;
+  background-color: #bcccda; /* Your preferred background color */
+  min-height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  padding: 20px; /* Added padding for breathing room */
+  box-sizing: border-box;
+}
+
+.app-content {
+  width: 100%;
+  max-width: 1200px; /* Constrain content width for larger screens */
+  padding: 20px;
+  background-color: white; /* Optional: add background for contrast */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
+  border-radius: 8px; /* Optional: rounded corners */
+  box-sizing: border-box; /* Ensures padding is part of the total width */
+}
+
+@media (max-width: 768px) {
+  /* Responsive styles for smaller screens */
+  .app-content {
+    padding: 15px; /* Reduce padding for smaller screens */
+    box-shadow: none; /* Remove shadow on smaller screens for simplicity */
+  }
+}
+
+/* 
+
+.app-container {
+  width: 100%;
+  background-color: #bcccda; 
+  height: 100vh; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.app-content {
+  width: 100%; 
+  max-width: 1200px; 
+  padding: 20px; 
+  box-sizing: border-box; 
+} */

@@ -1,0 +1,124 @@
+/* AdminStatsPage.css */
+
+.admin-stats {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.astat-top-bar {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; /* Ensures the content wraps on smaller screens */
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 15px 20px;
+    color: #000000;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    box-shadow: #000000;
+}
+
+.astat-title {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.admin-stats h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.admin-stats h2 {
+    color: #224287; /* Use your blue theme color */
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #224287;
+    padding-bottom: 5px;
+}
+
+.admin-stats table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-stats thead {
+    background-color: #224287; /* Header background color */
+    color: white;
+}
+
+.admin-stats th, .admin-stats td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.admin-stats tbody tr {
+    background-color: #ffffff; /* Row background color */
+}
+
+.admin-stats tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Zebra stripe for even rows */
+}
+
+.admin-stats tbody tr:hover {
+    background-color: #f1f1f1; /* Highlight row on hover */
+}
+
+.admin-stats th {
+    border-bottom: 2px solid #ccc; /* Border below header */
+}
+
+.admin-stats td {
+    border-bottom: 1px solid #ddd; /* Border between rows */
+}
+
+.back-button {
+    background-color: #224287; /* Your theme color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-bottom: 20px; /* Space below the button */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.back-button:hover {
+    background-color: #1a2b56; /* Darker shade on hover */
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .admin-stats h1 {
+        font-size: 1.5rem;
+    }
+
+    .admin-stats table {
+        font-size: 0.9rem;
+    }
+
+    .admin-stats th, .admin-stats td {
+        padding: 8px;
+    }
+
+    .astat-top-bar {
+        flex-direction: column; /* Stack the elements vertically on smaller screens */
+        align-items: flex-start;
+    }
+
+    .astat-title {
+        font-size: 20px; /* Adjust title size */
+        margin-bottom: 10px;
+    }
+
+    .back-button {
+        margin-bottom: 0; /* Reduce margin on smaller screens */
+    }
+}

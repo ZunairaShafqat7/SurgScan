@@ -1,0 +1,39 @@
+.chart-container {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .chart-container:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    border-color: #999;
+  }
+  
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 2px solid #ddd;
+    text-align: left;
+    padding: 10px;
+}
+
+th {
+    background-color: #122647;
+    color: #fff;
+}
+
+tr:hover {
+    background-color: #2b4163;
+    color: white;
+}

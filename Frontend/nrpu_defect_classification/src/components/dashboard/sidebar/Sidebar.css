@@ -1,0 +1,14 @@
+/* Add this to your Sidebar CSS or your global styles */
+.MuiDrawer-paper {
+    background-color: #f5f5f5;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  }
+  
+  .MuiListItemText-root {
+    color: #333;
+  }
+  
+  .MuiListItem-root:hover {
+    background-color: #e8e8e8;
+  }
+  

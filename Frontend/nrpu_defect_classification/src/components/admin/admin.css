@@ -1,0 +1,192 @@
+/* Full screen container with padding */
+.admin-dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    min-height: 100vh;
+    border-radius: 8px;
+  }
+  
+  /* Top Bar */
+  .top-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #224287;
+    padding: 15px 20px;
+    color: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-title {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .admin-email {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Main Dashboard Layout */
+  .admin-dashboard {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  /* Admin Details Card */
+  .admin-details-card {
+    flex: 2;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-details-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .labels-container, .values-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .labels-container p, .values-container p {
+    margin: 10px 0;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  /* Admin Image Card */
+  .admin-image-card {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .admin-image {
+    max-width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .admin-name {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #224287;
+  }
+  
+  /* Buttons Section */
+  .admin-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .admin-buttons button {
+    padding: 10px 20px;
+    background-color: #224287;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .admin-buttons button:hover {
+    background-color: #1a3a63;
+  }
+  
+  .admin-buttons button:active {
+    background-color: #172f52;
+  }
+  
+  /* Other Detail Card */
+  .other-detail-card {
+    background-color: #b0c4d9; /* Match the color from the image */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .other-detail-card h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #333;
+  }
+/*   
+  .batch-user-stats {
+    display: flex;
+    justify-content: space-between;
+  } */
+  
+  /* .total-batches p, .total-users p {
+    margin: 5px 0;
+    color: #224287; 
+    font-weight: bold;
+  } */
+/*   
+  .total-batches span, .total-users span {
+    color: #000000;
+    font-weight: normal;
+  } */
+  
+
+
+  .batch-user-stats {
+    display: flex;
+    justify-content: space-between; /* Allocate equal space between total-batches and total-users */
+    align-items: stretch;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .total-batches,
+  .total-users {
+    flex: 1; /* Equal width for both */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+  }
+  
+  .batch-details-content,
+  .user-details-content {
+    display: flex;
+    justify-content: space-between; /* Labels on the left and values on the right */
+    align-items: center;
+    text-align: left;
+  }
+  
+  .batch-labels,
+  .user-labels {
+    flex: 1;
+    color: #224287;
+    margin-bottom: 10px;
+  }
+  
+  .batch-values,
+  .user-values {
+    flex: 1;
+    text-align: right;
+    margin-bottom: 10px;
+  }
+  

@@ -1,0 +1,17 @@
+.register-form {
+  background: #fff;
+  width: 70%;  
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  box-shadow: 0 2px 25px rgba(0, 0, 0, 0.2);
+}
+.header_title{
+  background-color: #122647;
+  color: #fff;
+  text-align: center;
+}
